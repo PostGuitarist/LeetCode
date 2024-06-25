@@ -5,5 +5,5 @@ class Solution:
         for i in range(len(nums)):
             if i != nums[i]:
                 return i
-        
+            
         return len(nums)
